@@ -2,8 +2,8 @@
 tasks:
   - init: |  # runs during prebuild
       pip install poetry 
-      export PIP_USER=false #poetry config cache-dir /workspace/.cache/pypoetry # 
-      poetry update
+      export PIP_USER=false 
+      poetry config cache-dir /workspace/.cache/pypoetry # poetry update
       export FLASK_APP=app.py
       export FLASK_ENV=development
     command: poetry run flask run
