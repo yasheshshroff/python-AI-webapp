@@ -1,11 +1,11 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
   - init: |  # runs during prebuild
-      pip install poetry 
-      export PIP_USER=false 
-      poetry config cache-dir /workspace/.cache/pypoetry 
+      pip install poetry
+      export PIP_USER=false
+      poetry config cache-dir /workspace/.cache/pypoetry
       poetry update
-      export FLASK_APP=app.py
+      export FLASK_APP=python-AI-webapp
       export FLASK_ENV=development
     command: poetry run flask run
 
