@@ -1,3 +1,4 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yasheshshroff/python-ai-webapp/HEAD)
 # Python-AI-webapp
 A simple Python AI web app in Flask
 
